@@ -6,7 +6,7 @@ Depends: firmware (>3.0), cy+cpu.arm, cy+os.ios, mobilesubstrate, preferenceload
 
 Architecture: iphoneos-arm
 Filename: ./debs/eu.heinelt.ifile_1.6.1_1_iphoneos_arm_fabius.deb
-MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
+MD5sum: 76077deb77fedbc0ee0f96e279f2e478
 Description: file manager
 Name: IFile 1.6.1
 Author: Carsten Heinelt
