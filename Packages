@@ -1,28 +1,12 @@
-Package: com.supermamon.newpackage
-Version: 2.0.0-1
+Package: eu.heinelt.ifile_1.6.1_1_iphoneos_arm_fabius.deb
+Version: 1.6.1
 Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (>7.0), mobilesubstrate
+Maintainer: Carsten Heinelt
+Depends: firmware (>3.0), cy+cpu.arm, cy+os.ios, mobilesubstrate, preferenceloader, zip, unzip, unrar, p7zip, file-cmds, shell-cmds, coreutils, bzip2, gzip, tar, dpkg
+
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
-Size: 854
+Filename: ./debs/eu.heinelt.ifile_1.6.1_1_iphoneos_arm_fabius.deb
 MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
-
-Package: com.supermamon.oldpackage
-Version: 1.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (<7.0)
-Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
-
+Description: file manager
+Name: IFile 1.6.1
+Author: Carsten Heinelt
